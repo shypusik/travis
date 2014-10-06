@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Print.h"
 
 @interface ViewController ()
 
@@ -28,5 +29,9 @@
 
 - (IBAction)printButton1:(id)sender {
     NSLog(@"hello");
+}
+
+- (IBAction)printButton2:(id)sender {
+    [Print print];
 }
 @end

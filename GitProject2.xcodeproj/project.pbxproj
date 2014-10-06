@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8446B6B919E26CCB00B9E624 /* Print.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446B6B819E26CCB00B9E624 /* Print.m */; };
 		8482D35E19E26B6300F84D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482D35D19E26B6300F84D75 /* Foundation.framework */; };
 		8482D36019E26B6300F84D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482D35F19E26B6300F84D75 /* CoreGraphics.framework */; };
 		8482D36219E26B6300F84D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8482D36119E26B6300F84D75 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8446B6B719E26CCB00B9E624 /* Print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Print.h; sourceTree = "<group>"; };
+		8446B6B819E26CCB00B9E624 /* Print.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Print.m; sourceTree = "<group>"; };
 		8482D35A19E26B6300F84D75 /* GitProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482D35D19E26B6300F84D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8482D35F19E26B6300F84D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				8482D36F19E26B6300F84D75 /* Main.storyboard */,
 				8482D37219E26B6300F84D75 /* ViewController.h */,
 				8482D37319E26B6300F84D75 /* ViewController.m */,
+				8446B6B719E26CCB00B9E624 /* Print.h */,
+				8446B6B819E26CCB00B9E624 /* Print.m */,
 				8482D37519E26B6300F84D75 /* Images.xcassets */,
 				8482D36419E26B6300F84D75 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				8482D37419E26B6300F84D75 /* ViewController.m in Sources */,
 				8482D36E19E26B6300F84D75 /* AppDelegate.m in Sources */,
 				8482D36A19E26B6300F84D75 /* main.m in Sources */,
+				8446B6B919E26CCB00B9E624 /* Print.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				8482D38E19E26B6300F84D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8482D38F19E26B6300F84D75 /* Build configuration list for PBXNativeTarget "GitProject2Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				8482D39119E26B6300F84D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

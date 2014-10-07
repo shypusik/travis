@@ -30,8 +30,14 @@
 - (IBAction)printButton1:(id)sender {
     NSLog(@"hello");
 }
+<<<<<<< HEAD
 
 - (IBAction)printButton2:(id)sender {
     [Print print];
 }
+=======
+    
+    
+    
+>>>>>>> master
 @end

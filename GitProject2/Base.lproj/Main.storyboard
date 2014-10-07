@@ -32,6 +32,9 @@
                                 <state key="normal" title="Delegate print">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="printButton2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VbW-Wk-Wvc"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Axy-Bd-eIw">
                                 <rect key="frame" x="112" y="35" width="97" height="30"/>

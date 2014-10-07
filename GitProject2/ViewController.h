@@ -10,5 +10,6 @@
 
 @interface ViewController : UIViewController
 - (IBAction)printButton1:(id)sender;
+- (IBAction)printButton2:(id)sender;
 
 @end
